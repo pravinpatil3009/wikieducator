@@ -1,0 +1,18 @@
+/** extensions/FileSystemListing/modules/ext.FileSystemListing.css */
+ul.mw-ext-FileSystemListing {
+	    list-style: none; margin: 0; padding: 0;
+    }
+    ul.mw-ext-FileSystemListing li {
+	        background-image: url(images/page.png); background-position: 0 1px; background-repeat: no-repeat;
+		    padding-left: 20px;
+	    }
+	    ul.mw-ext-FileSystemListing li.folder {
+		        background-image: url(images/folder.png);
+		}
+		 
+		ul.mw-ext-FileSystemListing a {
+			    color: #000000; cursor: pointer; text-decoration: none;
+		    }
+		    ul.mw-ext-FileSystemListing a:hover {
+			        text-decoration: underline;
+			}

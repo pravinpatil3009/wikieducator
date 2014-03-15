@@ -1,0 +1,66 @@
+#columns {
+	column-width: 320px;
+	column-gap: 15px;
+	width: 90%;
+	max-width: 400px;
+	margin: 50px auto;
+	margin-left:30px;
+	float:left;
+}
+
+div#columns figure {
+	background: beige;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px; padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+	column-break-inside: avoid;
+	display: inline-block;
+}
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns:hover figure:not(:hover) { opacity: 0.5; }
+
+#bodyContent {
+	background-color:aliceblue;
+}
+
+
+#columns1 {
+	column-width: 5000px;
+	column-gap: 15px;
+	width: 90%;
+	max-width: 500px;
+	margin: 50px auto;
+	margin-right:30px;
+	float:right;
+}
+
+div#columns1 figure {
+	background: beige;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px; padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+	column-break-inside: avoid;
+	display: inline-block;
+}
+div#columns1 figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns1:hover figure:not(:hover) { opacity: 0.5; }
+
+#bodyContent {
+	background-color:aliceblue;
+}
